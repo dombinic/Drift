@@ -1,9 +1,15 @@
 # Drift
 
-**Statistical anomaly detection for AI agent workflows.**
+[![PyPI version](https://badge.fury.io/py/drift-detection.svg)](https://pypi.org/project/drift-detection/)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Catch silent failures, hallucination drift, and off-script behavior before they corrupt your data.
+**Statistical anomaly detection for AI agent workflows.**  
+Catch silent failures before they corrupt your data.
 
+```bash
+pip install drift-detection
+```
 ---
 
 Your AI agents are failing silently. A tool call takes 10x longer than usual. The agent calls `delete_file` when it's never done that before. Output quality gradually degrades over hundreds of runs. Traditional monitoring tools weren't built for non-deterministic systems — Drift is.
