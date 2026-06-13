@@ -3,11 +3,11 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "driftguard"
+name = "drift-detection"
 version = "0.1.0"
 description = "Statistical anomaly detection for AI agent workflows"
 readme = "README.md"
-license = "MIT"
+license ={text = "MIT"}
 requires-python = ">=3.9"
 authors = [
     { name = "Dominic", email = "" },
